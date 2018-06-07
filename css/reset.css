@@ -1,0 +1,85 @@
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    font-size: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    &:hover {
+        outline: none;
+    }
+}
+
+
+body,
+div,
+canvas {
+    image-rendering: optimizeSpeed;
+    -webkit-image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    image-rendering: optimizeSpeed;
+    interpolation-mode: nearest-neighbor;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+input, textarea{
+    outline:none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 100%;
+    user-select: none;
+}
+em,
+i {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}

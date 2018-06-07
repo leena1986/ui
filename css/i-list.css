@@ -1,0 +1,88 @@
+.list-group{
+	margin:.2rem .15rem 0;
+}
+.list-sty1 li{
+	display: -webkit-box;
+    display: flex;
+    padding-bottom:.08rem;
+	border-bottom:1px solid #ddd;
+}
+.list-sty1 .time{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap/wrap-reverse;
+	align-items:center;
+	margin-right:.1rem;
+}
+.list-sty1 .txt{
+	-webkit-box-flex: 1;
+    flex: 1;
+}
+.list-sty1 .txt .tit{
+	font-size:.14rem;
+	font-weight: bold;
+}
+.list-sty1 .txt .msg{
+	color:#666;
+	margin-top:.06rem;
+}
+.list-sty1 .status{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap/wrap-reverse;
+	align-items:center;
+	margin-left:.1rem;
+}
+.list-sty1 .img{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap/wrap-reverse;
+	align-items:center;
+	margin-right:.1rem;
+}
+.list-sty1 .img img{
+	width: 1rem;
+}
+.list-sty1 .arrow{
+	position: relative;
+	display:block;
+	padding:0 .1rem;
+}
+.list-sty1 .arrow:after{
+	content:'';
+	position: absolute;
+	left:50%;
+	top:50%;
+	width:.1rem;
+	height:.1rem;
+	margin:-.05rem 0 0 -.05rem;
+	border-top:1px solid #999;
+	border-right:1px solid #999;
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+/*list-sty2*/
+.list-sty2 li{
+	display: -webkit-box;
+    display: flex;
+    line-height:.34rem;
+	border-bottom:1px solid #ddd;
+}
+.list-sty2 li:last-of-type{
+	border-bottom:none;
+}
+.list-sty2 .txt{
+	-webkit-box-flex: 1;
+    flex: 1;
+    width:0;
+    height:.34rem;
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.list-sty2 .time{
+	display:block;
+	color:#999;
+	text-align: right;
+	width:1.1rem;
+}

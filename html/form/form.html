@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>通用样式库</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/base.css"/>
+    <link rel="stylesheet" href="../../css/i-btn.css"/>
+    <link rel="stylesheet" href="../../css/i-form.css"/>
+</head>
+
+<body>
+<div class="ui-module">
+	<header class="header">
+        <span class="header-l">
+            <a href="../index.html" class="item goback"></a>
+        </span>
+        <h1 class="tit">form表单</h1>
+        <span class="header-r">
+        </span>
+    </header>
+    <div class="ui-bd">
+        <div class="fm-group">
+            <ul class="fm-list">
+                <li class="fm-item">
+                    <span class="tit">text</span>
+                    <div class="txt">
+                        <input type="text" placeholder="请输入..." class="ipt-txt ipt-all">
+                        <span class="delet"></span>
+
+                    </div>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">password</span>
+                    <div class="txt">
+                        <input type="password" placeholder="请输入password" class="ipt-txt ipt-all">
+                        <span class="eye eye-open"></span>
+                    </div>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">select</span>
+                    <div class="txt ">
+                        <div class="select-inner">
+                            <span class="slect-item">
+                                <select name="" id="" class="select">
+                                    <option value="">北京市</option>
+                                </select>
+                            </span>
+                            <span class="slect-item">
+                                <select name="" id="" class="select">
+                                    <option value="">北京市</option>
+                                </select>
+                            </span>
+                            <span class="slect-item">
+                                <select name="" id="" class="select">
+                                    <option value="">朝阳区</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">text</span>
+                    <div class="txt">
+                        <input type="text" placeholder="请输入手机号" class="ipt-txt ipt-all">
+                    </div>
+                    <span class="smscode">发送验证码</span>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">text</span>
+                    <div class="txt">
+                        <input type="text" placeholder="请输入手机号" class="ipt-txt ipt-all">
+                    </div>
+                    <span class="captcha"><img src="../../img/form/captcha.png" alt=""></span>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">radio</span>
+                    <div class="txt">
+                        <label for="" class="radio-item">
+                            <input type="radio" value="male" name="sex"> 男
+                        </label>
+                        <label for="" class="radio-item">
+                            <input type="radio" value="female" name="sex"> 女
+                        </label>
+                    </div>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">checkbox</span>
+                    <div class="txt">
+                        <label class="checkbox-item">
+                            <input type="checkbox" class="ui-checkbox-input" value="Eat"></span>
+                            <span>Eat</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" class="ui-checkbox-input" value="Sleep"></span>
+                            <span>Sleep</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" class="ui-checkbox-input" value="Run"></span>
+                            <span>Run</span>
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" class="ui-checkbox-input" value="Movie"></span>
+                            <span>Movie</span>
+                        </label>
+                    </div>
+                </li>
+                <li class="fm-item">
+                    <span class="tit">textarea</span>
+                    <div class="txt">
+                        <textarea wrap="soft" placeholder="Enter something..." rows="2" class="ipt-tara ipt-all" style="height: 70px; min-height: 52px; max-height: 115px;"></textarea>
+                    </div>
+                </li>
+            </ul>
+            <div class="btn-inline">
+                <span class="btn btn-primary">提交</span>
+                <span class="btn btn-weak">关闭</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../js/flexible.js"></script>
+</body>
+</html>

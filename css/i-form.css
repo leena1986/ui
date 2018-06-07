@@ -1,0 +1,191 @@
+.fm-group{
+	margin:.2rem .15rem 0;
+}
+/*fm-list*/
+.fm-list .fm-item{
+	display: -webkit-box;
+    display: flex;
+    padding-top:.15rem;
+}
+.fm-list .txt{
+	position: relative;
+	-webkit-box-flex: 1;
+    flex: 1;
+    width:0;
+}
+.fm-list .tit{
+	display: block;
+	height:.34rem;
+	line-height:.34rem;
+	width:.7rem;
+	color:#444;
+}
+.fm-list .ipt-txt{
+	display: block;
+	height:.34rem;
+	background:none;
+	border:1px solid #dddee1;
+	border-radius:.04rem;
+	padding:0 .06rem;
+	box-sizing: border-box;
+}
+.fm-list .delet{
+	position: absolute;
+	right:.1rem;
+	top:50%;
+	width: .2rem;
+	height:.2rem;
+	background: url(../img/form/icon-sel.png) no-repeat;
+	background-size: contain;
+	transform: translate(0, -50%);
+}
+.fm-list .eye{
+	position: absolute;
+	right:.1rem;
+	top:50%;
+	width: .2rem;
+	height:.2rem;
+	background: url(../img/form/icon-eye.png) no-repeat;
+	background-size:.2rem auto;
+	transform: translate(0, -50%);
+}
+.fm-list .eye-open{
+	background-position:0 0;
+}
+.fm-list .eye-close{
+	background-position:0 -.2rem;
+}
+.fm-list .radio-item{
+	display:inline-block;
+	line-height:.34rem;
+	margin-right: .1rem;
+}
+.fm-list .checkbox-item{
+	display:inline-block;
+	line-height:.34rem;
+	margin-right: .1rem;
+}
+.fm-list .smscode{
+	display: block;
+	height: .34rem;
+	line-height: .34rem;
+	text-align: center;
+	margin-left:.1rem;
+	border:1px solid #dddee1;
+	box-sizing: border-box;
+	border-radius: .04rem;
+	padding:0 .1rem;
+	background: #fefefe;
+}
+.fm-list .captcha{
+	display: block;
+	height: .34rem;
+	margin-left:.1rem;
+	box-sizing: border-box;
+	border-radius: .04rem;
+}
+.fm-list .captcha img{
+	width:auto;
+	height:.34rem;
+}
+.fm-list .smscode.disabled{
+	background:#eee;
+}
+.fm-list .ipt-tara{
+	display: block;
+	background:none;
+	border:1px solid #dddee1;
+	border-radius:.04rem;
+	padding:0 .06rem;
+	box-sizing: border-box;
+}
+.fm-group .btn-inline{
+	padding:.2rem 0 0  .7rem;
+}
+.fm-group .select-inner{
+	display: -webkit-box;
+    display: flex;
+}
+.fm-group .slect-item{
+	display:block;
+	-webkit-box-flex: 1;
+    flex: 1;
+    width:0;
+	padding:.08rem .1rem 0 0;
+}
+.fm-group .slect-item .select{
+	display:block;
+	width:100%;
+}
+.ipt-all{
+	width:100%;
+}
+/*fm-icon-list*/
+.fm-icon-list .fm-item{
+	display: -webkit-box;
+    display: flex;
+    margin-top:.15rem;    
+	border-radius:.04rem;
+	padding:.02rem 0;
+    border:1px solid #dddee1;
+}
+.fm-icon-list .txt{
+	position: relative;
+	-webkit-box-flex: 1;
+    flex: 1;
+    width:0;
+}
+.fm-icon-list .icon{
+	display: block;
+	height:.3rem;
+	width:.3rem;
+	margin-left:.08rem;
+	background:url(../img/form/icon-form.png) no-repeat;
+	background-size:.3rem 1.2rem;
+}
+.fm-icon-list .icon-iphone{
+	background-position:0 0
+}
+.fm-icon-list .icon-psw{
+	background-position:0 -.3rem
+}
+.fm-icon-list .icon-email{
+	background-position:0 -.6rem
+}
+.fm-icon-list .ipt-txt{
+	display: block;
+	height:.3rem;
+	background:none;
+	border:none;
+	padding:0 .06rem;
+	box-sizing: border-box;
+}
+.fm-icon-list .delet{
+	position: absolute;
+	right:.1rem;
+	top:50%;
+	width: .2rem;
+	height:.2rem;
+	background: url(../img/form/icon-sel.png) no-repeat;
+	background-size: contain;
+	transform: translate(0, -50%);
+}
+.fm-icon-list .eye{
+	position: absolute;
+	right:.1rem;
+	top:50%;
+	width: .2rem;
+	height:.2rem;
+	background: url(../img/form/icon-eye.png) no-repeat;
+	background-size:.2rem auto;
+	transform: translate(0, -50%);
+}
+.fm-icon-list .eye-open{
+	background-position:0 0;
+}
+.fm-icon-list .eye-close{
+	background-position:0 -.2rem;
+}
+.fm-group .btn-flex{
+	padding-top:.15rem;
+}

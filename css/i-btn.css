@@ -1,0 +1,122 @@
+.btn-group {
+	padding:0 .1rem .1rem;
+}
+.btn-group .btn{
+	margin-top:.1rem;
+}
+.btn{
+	display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+    padding: .06rem .14rem;
+    font-size:.12rem;
+    line-height:.16rem;
+    border-radius: .04rem;
+    color: #444;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+.btn.btn-primary{
+	background:#bb1830;
+	color:#fff;
+	border-color:#bb1830;
+}
+.btn.btn-weak{
+	background:#fff;
+	color:#444;
+	border-color:#aaa;
+}
+.btn.btn-dashed{
+	color: #444;
+    background-color: transparent;
+    border-color: #aaa;
+    border-style: dashed;
+}
+.btn.btn-txt{
+	color: #444;
+    background-color: transparent;
+    border:none;
+}
+.btn.btn-info{
+	background:#57c5f7;
+	color:#fff;
+	border-color:#57c5f7;
+}
+.btn.btn-success{
+	background:#19be6b;
+	color:#fff;
+	border-color:#19be6b;
+}
+.btn.btn-warning{
+	background:#f90;
+	color:#fff;
+	border-color:#f90;
+}
+.btn.btn-error{
+	background:#ed3f14;
+	color:#fff;
+	border-color:#ed3f14;
+}
+.btn.disabled{
+	background-color: #f3f5f8;
+	border: solid 1px #ced3e1;
+	cursor: default;
+	color:#bdc0ca;
+}
+.btn .icon{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:.05rem;
+}
+.btn .icon-dl{
+	width:.16rem;
+	height:.16rem;
+	background: url(../img/public/icon-dl.png) no-repeat;
+    background-size:contain;
+}
+.btn-flex{
+	display: -webkit-box;
+    display: flex;
+}
+.btn-flex .btn{
+	display:block;
+	-webkit-box-flex: 1;
+    flex: 1;
+    text-align: center;
+    margin-right:.15rem;
+}
+.btn-flex .btn:last-of-type{
+	margin-right:0;
+}
+.btn-block .btn{
+	text-align: center;
+	display:block;
+	margin-top:.1rem;
+}
+
+/**/
+.btn-inline .btn{
+	margin-right:.1rem;
+}
+.btn-inline .btn:last-of-type{
+	margin-right:0;
+}
+/**/
+.btn-row{
+	display: -webkit-box;
+    display: flex;
+    background:#f0f0f0;
+    border-radius:0 0 .05rem .05rem;
+}
+.btn-row .btn{
+	display:block;
+	-webkit-box-flex: 1;
+    flex: 1;
+    height:.34rem;
+    line-height:.22rem;
+    text-align: center;
+    border-right:1px solid #ddd;
+}
+.btn-row .btn:last-of-type{
+	border-right:none;
+}

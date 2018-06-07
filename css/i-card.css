@@ -1,0 +1,27 @@
+
+.card-group{
+	padding:.1rem .1rem 0;
+}
+.card-group .mode-card{
+	margin-top:.1rem;
+}
+.mode-card{
+	background: #fff;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 0.06rem;
+    font-size: 0.14rem;
+}
+.mode-card .card-bd{
+	padding:.12rem;
+}
+.mode-card .card-hd{
+	line-height:.38rem;
+	padding:0 .12rem;
+	border-bottom:1px solid #eee;
+}
+.mode-card .card-ft{
+	line-height:.38rem;
+	padding:0 .12rem;
+	border-top:1px solid #eee;
+}

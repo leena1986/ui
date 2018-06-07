@@ -1,0 +1,54 @@
+@charset "utf-8";
+.header-group{
+	padding: .1rem .1rem 0
+}
+.ui-header{
+	position: relative;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background:#bb1830 ;
+}
+.ui-header .header-l{
+    position: absolute;
+    left: 0;
+    top:0;
+    padding-top:.1rem;
+}
+.ui-header .header-l .header-item{
+    float: left;
+    margin-left:.1rem;
+}
+.ui-header .icon{
+	display: block;
+	width:.3rem;
+    height:.3rem;
+    background: url(../img/public/icon-topbar.png) no-repeat;
+    background-size:.3rem auto;
+}
+.ui-header .icon-goback{
+    background-position: 0 0
+}
+.ui-header .icon-user{
+    background-position: 0 -.3rem
+}
+.ui-header .icon-clec{
+    background-position: 0 -.9rem
+}
+.ui-header .header-r{
+    position: absolute;
+    right: 0;
+    top:0;
+    padding-top:.1rem;
+}
+.ui-header .header-r .header-item{
+    float: left;
+    margin-right:.1rem;
+}
+        
+.ui-header .tit{
+    font-size:.16rem;
+    line-height:.5rem;
+    color:#fff;
+    text-align:center;
+}
+

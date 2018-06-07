@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>通用样式库</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/i-btn.css"/>
+</head>
+
+<body>
+<div class="ui-module">
+	<header class="header">
+        <span class="header-l">
+            <a href="index.html" class="item goback"></a>
+        </span>
+        <h1 class="tit">Button按钮</h1>
+        <span class="header-r">
+        </span>
+    </header>
+    <div class="ui-bd">
+        <div class="btn-group">
+            <span class="btn">Default</span>
+            <span class="btn btn-primary">Primary</span>
+            <span class="btn btn-weak">Weak</span>
+            <span class="btn btn-dashed">Dashed</span>
+            <span class="btn btn-txt">only text</span>
+            <span class="btn btn-info">Info</span>
+            <span class="btn btn-success">Success</span>
+            <span class="btn btn-warning">Warning</span>
+            <span class="btn btn-error">Error</span>
+            <span class="btn btn-primary disabled">disabled</span>
+            <span class="btn btn-primary"><i class="icon icon-dl"></i>download</span>
+        </div>
+
+        <div class="btn-group">
+            <h2 class="mod-tit">带容器的按钮，btn-flex为容器，可以一行显示一个 也可以一行显示两个至多个</h2>
+            <div class="btn-flex">
+                <span class="btn btn-primary">Primary</span>
+            </div>
+            <div class="btn-flex">
+                <span class="btn btn-primary">确认</span>
+                <span class="btn btn-weak">关闭</span>
+            </div>
+            <h2 class="mod-tit">一行显示一个按钮，适用于多个按钮单行显示</h2>
+            <div class="btn-block">
+                <span class="btn btn-primary">确认</span>
+                <span class="btn btn-weak">关闭</span>
+            </div>
+            <h2 class="mod-tit">内联按钮</h2>
+            <div class="btn-inline">
+                <span class="btn btn-primary">确认</span>
+                <span class="btn btn-weak">关闭</span>
+            </div>
+            <h2 class="mod-tit">按钮组</h2>
+            <div class="btn-row">
+                <span class="btn btn-txt">确认</span>
+                <span class="btn btn-txt">关闭</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/flexible.js"></script>
+</body>
+</html>

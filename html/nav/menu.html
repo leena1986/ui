@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>通用样式库</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/base.css"/>
+    <link rel="stylesheet" href="../../css/i-nav.css"/>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<div class="ui-module">
+	<header class="header">
+        <span class="header-l">
+            <a href="../index.html" class="item goback"></a>
+        </span>
+        <h1 class="tit">menu 导航菜单</h1>
+        <span class="header-r">
+        </span>
+    </header>
+    <div class="ui-bd">
+        <div class="menu-group">
+            <ul class="tab-nav-list">
+                <li class="current">
+                    <span class="inner">menu1</span>
+                </li>
+                <li>
+                    <span class="inner">menu2</span>
+                </li>
+                <li>
+                    <span class="inner">menu3</span>
+                </li>
+            </ul>
+            <div class="tab-cont" style="display: block">标签一的内容</div>
+            <div class="tab-cont" style="display: none">标签二的内容</div>
+            <div class="tab-cont" style="display: none">标签三的内容</div>
+        </div>
+
+        
+    </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.tab-nav-list').on('click', 'li' ,function(e){
+    var index=$(this).index()
+    $(this).addClass('current').siblings().removeClass('current');
+    $(".tab-cont").hide().eq(index).show();
+  })
+});
+</script>
+<script src="../../js/flexible.js"></script>
+</body>
+</html>
